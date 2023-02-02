@@ -1,0 +1,9 @@
+.cardWrapper{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-bottom: 20px;
+    color:#000;
+}
