@@ -1,9 +1,32 @@
-.cardWrapper{
-    width: 400px;
-    height: 300px;
+.container{
+    width: 300px;
+    height: 290px;
     display: flex;
     flex-direction: column;
     background-color: #fff;
     margin-bottom: 20px;
     color:#000;
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top: 145px;
+    right: 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.image{
+    margin-bottom: 20px;
+}
+
+.title{
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
 }
