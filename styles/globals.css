@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: Roboto, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -20,5 +20,30 @@ h2{
   padding: 0;
 }
 
+h3{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  flex-flow: wrap;
+  max-width: 1440px;
+  justify-content: center;
+  gap: 41px;
+  padding: 88px 0;
+  margin: 0 auto;
+}
 
 
+@media (max-width:365px) {
+  .container{
+    padding: 20px 0;
+  
+  }
+  
+}

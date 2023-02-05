@@ -1,0 +1,82 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+.container{
+    display: flex;
+    
+    gap: 90px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.title h1{
+    font-size: 32px;
+    font-weight: 400;
+}
+.title h2{
+    font-size: 16px;
+    font-weight: 400;
+}
+.button{
+    max-width: 350px;
+    height: 50px;
+    background-color: #2b2b2b;
+    color: #ffffff;
+    border:1px solid black;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.button:hover{
+    background-color: rgb(77, 77, 77);
+}
+.imageContainer{
+    width: 700px;
+    height: 600px;
+    position: relative;
+}
+
+@media (max-width:1440px) {
+    .imageContainer{
+        width: 600px;
+        height: 450px;
+    }
+}
+
+@media (max-width:1080px) {
+    .container{
+        flex-direction: column;
+        align-items:flex-start;
+    }
+}
+
+@media (max-width:600px) {
+    .container{
+        width: 100%;
+        align-items:center;
+        gap: 50px;
+    }
+    .imageContainer{
+        width: 100%;
+        height: 380px;
+    }
+}
+
+@media (max-width:365px) {
+    .button{
+        width: 100%;
+    }
+    .wrapper{
+        padding: 5px;
+    }
+    .imageContainer{
+        width: 100%;
+        height: 300px;
+    }
+}

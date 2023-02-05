@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  images: { domains: ['www.rosphoto.com'], formats: ['image/avif', 'image/webp'], },
+  images: { domains: ['top-fon.com'], formats: ['image/avif', 'image/webp'], },
 }
 
 module.exports = nextConfig

@@ -1,12 +1,27 @@
-import styles from '../styles/Home.module.css'
-import Card from '../components/card/card'
-const arr = [1,2,3,4,6,5]
-export default function Home() {
-  return (
-    <div className={styles.container}>
-        {arr.map((el, ind) => {
-          return <Card />
-        })}
-    </div>
-  )
+import Card from '../components/card/card';
+
+export default function Home({data}) {
+    return (
+        <>
+            {data.map((i, ind) =>{
+                return <Card id={i.id} img={i.images[0].path} price={i.price} key={ind} />;
+            } )}
+        </>
+    );
+}
+
+
+export async function getStaticProps(context) {
+    const res = await fetch('http://localhost:3003/data');
+    const data = await res.json();
+
+    if (!data) {
+        return {
+            notFound: true,
+        };
+    }
+
+    return {
+        props: { data }
+    };
 }

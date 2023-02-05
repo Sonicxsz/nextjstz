@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.btnWrapper{
+    display: flex;
+    gap: 30px;
+    height: 30px;
+    justify-content: flex-start;
+}
+
+.container h2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5a5a5a;
+}
+.title{
+    padding: 9px;
+}
+
+
+@media (max-width:365px) {
+    .btnWrapper{
+        gap: 5px;
+    }
+}

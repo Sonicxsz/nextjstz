@@ -1,9 +1,6 @@
-.container{
-  display: flex;
-  flex-flow: wrap;
-  max-width: 1440px;
-  justify-content: center;
-  gap: 41px;
-  padding: 88px 82px;
-  margin: 0 auto;
+.btnWidh{
+  width: 350px;
+  height: 50px;
 }
+
+

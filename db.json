@@ -1,5 +1,5 @@
-
-[
+{
+  "data": [
     {
         "id": 1,
         "code": null,
@@ -16,7 +16,7 @@
         "images": [
             {
                 "id": 3,
-                "path": "здесь будет путь для изображения",
+                "path": "https://top-fon.com/uploads/posts/2022-09/1663552432_1-top-fon-com-p-sero-lilovii-fon-foto-1.jpg",
                 "product_id": 1,
                 "variant_id": 1,
                 "created_at": "2023-01-31T13:10:46.000000Z",
@@ -40,7 +40,7 @@
          "images": [
             {
                 "id": 2,
-                "path": "здесь будет путь для изображения",
+                "path": "https://top-fon.com/uploads/posts/2022-09/1663552432_1-top-fon-com-p-sero-lilovii-fon-foto-1.jpg",
                 "product_id": 1,
                 "variant_id": 2,
                 "created_at": "2023-01-31T13:10:46.000000Z",
@@ -65,7 +65,7 @@
         "images": [
             {
                 "id": 1,
-                "path": "здесь будет путь для изображения",
+                "path": "https://top-fon.com/uploads/posts/2022-09/1663552432_1-top-fon-com-p-sero-lilovii-fon-foto-1.jpg",
                 "product_id": 1,
                 "variant_id": 3,
                 "created_at": "2023-01-31T13:10:46.000000Z",
@@ -73,5 +73,7 @@
             }
         ]
     }
-]
-
+  ]
+  
+  
+}
